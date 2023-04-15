@@ -1,4 +1,5 @@
 #!/bin/bash
+# ./2-input.sh "Argument 1"
 
 # Reading the user input and storing it in a variable, named VARIABLE.
 
@@ -25,6 +26,9 @@ done < $FILENAME
 
 # Command line argument.
 # From ChatGPT: The $0 variable is a special variable that contains the name of the script.
+
+# The -z flag causes test to check whether a string is empty. Returns true if the string is empty, false if it contains something.
+# Resource: https://www.linux.org/threads/what-does-z-flag-mean-in-shell-script-used-in-if-condition.17899/#:~:text=In%20both%20cases%2C%20the%20%2Dz,false%20if%20it%20contains%20something.
 
 # If no arguments are passed to the script, show usage, else print argument.
 if [ -z "$1" ]
