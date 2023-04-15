@@ -1,0 +1,2 @@
+This is an example input to test reading from a file.
+Testing line 2
