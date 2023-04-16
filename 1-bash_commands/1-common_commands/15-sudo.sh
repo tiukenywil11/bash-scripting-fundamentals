@@ -3,7 +3,7 @@
 COMMAND=$1
 
 # Getting PASSWORD from config file
-. ../bash.config
+. ../../bash.config
 
 # Run with admin priviledges
 # Resource: https://superuser.com/questions/67765/sudo-with-password-in-one-command-line

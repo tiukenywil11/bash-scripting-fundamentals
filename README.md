@@ -1,10 +1,12 @@
 # Resources:
 - https://www.freecodecamp.org/news/bash-scripting-tutorial-linux-shell-script-and-command-line-for-beginners/
+- https://zach-gollwitzer.medium.com/the-ultimate-bash-crash-course-cb598141ad03
+
+# Additional reading:
 - https://oit.ua.edu/wp-content/uploads/2020/12/Linux_bash_cheat_sheet-1.pdf
 - https://www.baeldung.com/linux/use-command-line-arguments-in-bash-script
 - https://www.geeksforgeeks.org/basic-operators-in-shell-scripting/
 - https://ryanstutorials.net/bash-scripting-tutorial/bash-functions.php
-- https://zach-gollwitzer.medium.com/the-ultimate-bash-crash-course-cb598141ad03
 
 ## Config file
 - https://askubuntu.com/questions/743493/best-way-to-read-a-config-file-in-bash
