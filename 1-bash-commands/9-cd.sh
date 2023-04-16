@@ -8,18 +8,19 @@ CURRENT_DIRECTORY=$(pwd)
 echo "Current directory:"
 pwd
 
+# Resource: https://unix.stackexchange.com/questions/20035/how-to-add-newlines-into-variables-in-bash-script
 # Change directory
-echo "Changing directory to $1"
+echo $'\n'"Changing directory to $1"
 cd $DIRECTORY_PATH
 
 # Check present working directory after cd
-echo "Current directory after cd:"
+echo $'\n'"Current directory after cd:"
 pwd
 
 # Check present working directory
-echo "Going back to previous directory"
+echo $'\n'"Going back to previous directory"
 cd $CURRENT_DIRECTORY
 
 # Check present working directory after going back
-echo "Current directory after going back:"
+echo $'\n'"Current directory after going back:"
 pwd

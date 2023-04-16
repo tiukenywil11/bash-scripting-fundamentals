@@ -4,7 +4,14 @@
 - https://www.baeldung.com/linux/use-command-line-arguments-in-bash-script
 - https://www.geeksforgeeks.org/basic-operators-in-shell-scripting/
 - https://ryanstutorials.net/bash-scripting-tutorial/bash-functions.php
+- https://zach-gollwitzer.medium.com/the-ultimate-bash-crash-course-cb598141ad03
 
+## Config file
+- https://askubuntu.com/questions/743493/best-way-to-read-a-config-file-in-bash
+
+## Regex
+- https://dev.to/codestackr/regular-expressions-regex-crash-course-248n
+- https://regexr.com/
 # Notes:
 1. From ChatGPT: To check bash script version.
   - Always add SCRIPT_VERSION to bash scripts, so that they can be used on Ansible better.
